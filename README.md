@@ -2,6 +2,9 @@
 
 This repository provides an automated installation script for setting up Apache Hadoop on Windows systems. The script simplifies the installation process by handling dependencies, configurations, and environment setup.
 
+![Hadoop Installer](https://github.com/07Sushant/Hadoop-Installer/blob/main/img.png)
+
+
 ## Features
 - Automates the installation of Hadoop and its dependencies
 - Configures environment variables
