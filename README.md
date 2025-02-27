@@ -51,10 +51,23 @@ The script automates the following steps:
 
 ## Verification
 After installation, verify Hadoop services by running the following commands:
+TO run the below cmd add this belwow PATH in your system
+```bash
+%HADOOP_HOME%\sbin
+```
+Now you can run using belwo cmd otherwise next step
 ```bash
 start-dfs.cmd
 start-yarn.cmd
 ```
+If above CMD is not working for you try belwo one 
+
+```bash
+cd C:\hadoopsetup\hadoop-3.2.4\sbin
+.\start-dfs.cmd
+.\start-yarn.cmd
+```
+
 Then, check running Java processes:
 ```bash
 jps
